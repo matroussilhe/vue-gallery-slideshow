@@ -10,7 +10,7 @@ export default {
     vue(),
     babel({
       babelrc: true,
-      runtimeHelpers: true,
+      runtimeHelpers: false,
       externalHelpers: false,
       exclude: "node_modules/**",
     }),
