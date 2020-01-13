@@ -69,5 +69,7 @@
     "ChromeAndroid >= 4",
     "OperaMobile >= 12"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
