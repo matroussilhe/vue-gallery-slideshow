@@ -295,7 +295,9 @@
   const isOldIE = typeof navigator !== 'undefined' &&
       /msie [6-9]\\b/.test(navigator.userAgent.toLowerCase());
   function createInjector(context) {
-      return (id, style) => addStyle(id, style);
+      return function (id, style) {
+        return addStyle(id, style);
+      }
   }
   let HEAD;
   const styles = {};

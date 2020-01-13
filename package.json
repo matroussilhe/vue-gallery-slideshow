@@ -64,7 +64,7 @@
     "Firefox >= 4",
     "Opera >= 10",
     "Edge >= 41",
-    "not ie <= 7",
+    "ie = 11",
     "iOS >= 6",
     "ChromeAndroid >= 4",
     "OperaMobile >= 12"
